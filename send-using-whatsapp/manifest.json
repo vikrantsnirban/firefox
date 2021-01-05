@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "Send Message using WhatsApp",
+  "description": "Send Message using WhatsApp ",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "63.0b14"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "menus"
+  ],
+  
+  "icons": {
+    "16": "icons/wtapp-16.png",
+    "32": "icons/wtapp-32.png",
+    "48": "icons/wtapp-48.png"
+  }
+
+}
